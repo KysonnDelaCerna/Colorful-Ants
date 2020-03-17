@@ -89,13 +89,14 @@ function ant (x, y) {
 }
 
 function setup () {
+    pixelDensity(1);
     width = windowWidth;
     height = windowHeight;
 
     createCanvas(width, height);
     background(255);
 
-    textSize(displayWidth / 15);
+    textSize(width / 15);
     textAlign(CENTER, CENTER);
     text("Langston's Colorful Ants", width / 2, height / 2);
 
